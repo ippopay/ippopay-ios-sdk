@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFE31D9425480E600057A710 /* IppoPay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE31D9225480E0E0057A710 /* IppoPay.xcframework */; };
-		AFE31D9525480E600057A710 /* IppoPay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFE31D9225480E0E0057A710 /* IppoPay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A782B63A33B6D721E4366DEE /* Pods_DemoIppopay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BDAA24B5E36D5010FC009A /* Pods_DemoIppopay.framework */; };
 		AFE72FB4254027BB00EAF383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB3254027BB00EAF383 /* AppDelegate.swift */; };
 		AFE72FB6254027BB00EAF383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */; };
 		AFE72FB8254027BB00EAF383 /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB7254027BB00EAF383 /* PayVC.swift */; };
@@ -25,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AFE31D9525480E600057A710 /* IppoPay.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AFE31D9225480E0E0057A710 /* IppoPay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IppoPay.xcframework; path = ../../IppoPay.xcframework; sourceTree = "<group>"; };
+		3AD9E1A4CDDA54B1C02DC21F /* Pods-DemoIppopay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIppopay.release.xcconfig"; path = "Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay.release.xcconfig"; sourceTree = "<group>"; };
+		3D4AD7FBD50223685E0DD22A /* Pods-DemoIppopay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIppopay.debug.xcconfig"; path = "Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BDAA24B5E36D5010FC009A /* Pods_DemoIppopay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoIppopay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE72FB0254027BB00EAF383 /* DemoIppopay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIppopay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE72FB3254027BB00EAF383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE31D9425480E600057A710 /* IppoPay.xcframework in Frameworks */,
+				A782B63A33B6D721E4366DEE /* Pods_DemoIppopay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +62,8 @@
 			children = (
 				AFE72FB2254027BB00EAF383 /* DemoIppopay */,
 				AFE72FB1254027BB00EAF383 /* Products */,
+				C715EFA0352A16C6CE532BE0 /* Pods */,
+				F7640B19B66F6E67816DBD70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +78,6 @@
 		AFE72FB2254027BB00EAF383 /* DemoIppopay */ = {
 			isa = PBXGroup;
 			children = (
-				AFE31D9225480E0E0057A710 /* IppoPay.xcframework */,
 				AFE72FB3254027BB00EAF383 /* AppDelegate.swift */,
 				AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */,
 				AFE72FB7254027BB00EAF383 /* PayVC.swift */,
@@ -89,6 +90,23 @@
 			path = DemoIppopay;
 			sourceTree = "<group>";
 		};
+		C715EFA0352A16C6CE532BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D4AD7FBD50223685E0DD22A /* Pods-DemoIppopay.debug.xcconfig */,
+				3AD9E1A4CDDA54B1C02DC21F /* Pods-DemoIppopay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7640B19B66F6E67816DBD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDAA24B5E36D5010FC009A /* Pods_DemoIppopay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,10 +114,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE72FC7254027BF00EAF383 /* Build configuration list for PBXNativeTarget "DemoIppopay" */;
 			buildPhases = (
+				E8D2B5392283804889B5959F /* [CP] Check Pods Manifest.lock */,
+				B63F0D7A2A77867B3B5E6D15 /* [CP] Prepare Artifacts */,
 				AFE72FAC254027BB00EAF383 /* Sources */,
 				AFE72FAD254027BB00EAF383 /* Frameworks */,
 				AFE72FAE254027BB00EAF383 /* Resources */,
 				AF8CD92B2546AC8F00CED351 /* Embed Frameworks */,
+				DDA5A0B568F0E7F5E73C793D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +176,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B63F0D7A2A77867B3B5E6D15 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA5A0B568F0E7F5E73C793D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D2B5392283804889B5959F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoIppopay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFE72FAC254027BB00EAF383 /* Sources */ = {
@@ -306,6 +386,7 @@
 		};
 		AFE72FC8254027BF00EAF383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4AD7FBD50223685E0DD22A /* Pods-DemoIppopay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -330,6 +411,7 @@
 		};
 		AFE72FC9254027BF00EAF383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD9E1A4CDDA54B1C02DC21F /* Pods-DemoIppopay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;

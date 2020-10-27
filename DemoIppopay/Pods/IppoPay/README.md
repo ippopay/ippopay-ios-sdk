@@ -94,5 +94,5 @@ PayLog.setLogVisible(debug: true or false)
 
 ## Sample Payment Reference.
 
-Please check [this link](https://github.com/ippopay/ippopay-ios-sdk/tree/main/DemoIppopay) for sample payment with above steps.
+Please check [this link](https://github.com/ippopay/ippopay-ios-sdk/tree/master/Demo) for sample payment with above steps.
 
