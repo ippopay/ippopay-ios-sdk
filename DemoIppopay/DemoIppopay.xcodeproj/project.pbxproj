@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE31D9425480E600057A710 /* IppoPay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE31D9225480E0E0057A710 /* IppoPay.xcframework */; };
+		AFE31D9525480E600057A710 /* IppoPay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFE31D9225480E0E0057A710 /* IppoPay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AFE72FB4254027BB00EAF383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB3254027BB00EAF383 /* AppDelegate.swift */; };
+		AFE72FB6254027BB00EAF383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */; };
+		AFE72FB8254027BB00EAF383 /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FB7254027BB00EAF383 /* PayVC.swift */; };
+		AFE72FBB254027BB00EAF383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE72FB9254027BB00EAF383 /* Main.storyboard */; };
+		AFE72FBE254027BB00EAF383 /* DemoIppopay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFE72FBC254027BB00EAF383 /* DemoIppopay.xcdatamodeld */; };
+		AFE72FC0254027BF00EAF383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE72FBF254027BF00EAF383 /* Assets.xcassets */; };
+		AFE72FC3254027BF00EAF383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE72FC1254027BF00EAF383 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF8CD92B2546AC8F00CED351 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFE31D9525480E600057A710 /* IppoPay.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFE31D9225480E0E0057A710 /* IppoPay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IppoPay.xcframework; path = ../../IppoPay.xcframework; sourceTree = "<group>"; };
+		AFE72FB0254027BB00EAF383 /* DemoIppopay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIppopay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE72FB3254027BB00EAF383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFE72FB7254027BB00EAF383 /* PayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
+		AFE72FBA254027BB00EAF383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFE72FBD254027BB00EAF383 /* DemoIppopay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoIppopay.xcdatamodel; sourceTree = "<group>"; };
+		AFE72FBF254027BF00EAF383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE72FC2254027BF00EAF383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFE72FC4254027BF00EAF383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE72FAD254027BB00EAF383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE31D9425480E600057A710 /* IppoPay.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE72FA7254027BB00EAF383 = {
+			isa = PBXGroup;
+			children = (
+				AFE72FB2254027BB00EAF383 /* DemoIppopay */,
+				AFE72FB1254027BB00EAF383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE72FB1254027BB00EAF383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE72FB0254027BB00EAF383 /* DemoIppopay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE72FB2254027BB00EAF383 /* DemoIppopay */ = {
+			isa = PBXGroup;
+			children = (
+				AFE31D9225480E0E0057A710 /* IppoPay.xcframework */,
+				AFE72FB3254027BB00EAF383 /* AppDelegate.swift */,
+				AFE72FB5254027BB00EAF383 /* SceneDelegate.swift */,
+				AFE72FB7254027BB00EAF383 /* PayVC.swift */,
+				AFE72FB9254027BB00EAF383 /* Main.storyboard */,
+				AFE72FBF254027BF00EAF383 /* Assets.xcassets */,
+				AFE72FC1254027BF00EAF383 /* LaunchScreen.storyboard */,
+				AFE72FC4254027BF00EAF383 /* Info.plist */,
+				AFE72FBC254027BB00EAF383 /* DemoIppopay.xcdatamodeld */,
+			);
+			path = DemoIppopay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE72FAF254027BB00EAF383 /* DemoIppopay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE72FC7254027BF00EAF383 /* Build configuration list for PBXNativeTarget "DemoIppopay" */;
+			buildPhases = (
+				AFE72FAC254027BB00EAF383 /* Sources */,
+				AFE72FAD254027BB00EAF383 /* Frameworks */,
+				AFE72FAE254027BB00EAF383 /* Resources */,
+				AF8CD92B2546AC8F00CED351 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIppopay;
+			productName = DemoIppopay;
+			productReference = AFE72FB0254027BB00EAF383 /* DemoIppopay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE72FA8254027BB00EAF383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = roamsoft;
+				TargetAttributes = {
+					AFE72FAF254027BB00EAF383 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AFE72FAB254027BB00EAF383 /* Build configuration list for PBXProject "DemoIppopay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE72FA7254027BB00EAF383;
+			productRefGroup = AFE72FB1254027BB00EAF383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE72FAF254027BB00EAF383 /* DemoIppopay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE72FAE254027BB00EAF383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE72FC3254027BF00EAF383 /* LaunchScreen.storyboard in Resources */,
+				AFE72FC0254027BF00EAF383 /* Assets.xcassets in Resources */,
+				AFE72FBB254027BB00EAF383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE72FAC254027BB00EAF383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE72FB8254027BB00EAF383 /* PayVC.swift in Sources */,
+				AFE72FB4254027BB00EAF383 /* AppDelegate.swift in Sources */,
+				AFE72FB6254027BB00EAF383 /* SceneDelegate.swift in Sources */,
+				AFE72FBE254027BB00EAF383 /* DemoIppopay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFE72FB9254027BB00EAF383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE72FBA254027BB00EAF383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFE72FC1254027BF00EAF383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE72FC2254027BF00EAF383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE72FC5254027BF00EAF383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFE72FC6254027BF00EAF383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE72FC8254027BF00EAF383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2YAP27KG9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoIppopay",
+				);
+				INFOPLIST_FILE = DemoIppopay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoIppopay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFE72FC9254027BF00EAF383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2YAP27KG9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoIppopay",
+				);
+				INFOPLIST_FILE = DemoIppopay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoIppopay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE72FAB254027BB00EAF383 /* Build configuration list for PBXProject "DemoIppopay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE72FC5254027BF00EAF383 /* Debug */,
+				AFE72FC6254027BF00EAF383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE72FC7254027BF00EAF383 /* Build configuration list for PBXNativeTarget "DemoIppopay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE72FC8254027BF00EAF383 /* Debug */,
+				AFE72FC9254027BF00EAF383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFE72FBC254027BB00EAF383 /* DemoIppopay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFE72FBD254027BB00EAF383 /* DemoIppopay.xcdatamodel */,
+			);
+			currentVersion = AFE72FBD254027BB00EAF383 /* DemoIppopay.xcdatamodel */;
+			path = DemoIppopay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFE72FA8254027BB00EAF383 /* Project object */;
+}

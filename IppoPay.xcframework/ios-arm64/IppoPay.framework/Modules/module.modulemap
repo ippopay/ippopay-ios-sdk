@@ -1,0 +1,11 @@
+framework module IppoPay {
+  umbrella header "IppoPay.h"
+
+  export *
+  module * { export * }
+}
+
+module IppoPay.Swift {
+    header "IppoPay-Swift.h"
+    requires objc
+}

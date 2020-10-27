@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PayVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="PayVC" id="BYZ-38-t0r" customClass="PayVC" customModule="DemoIppopay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile" translatesAutoresizingMaskIntoConstraints="NO" id="2AG-TU-XCB">
+                                <rect key="frame" x="20" y="64" width="374" height="569.5"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="6tc-Ld-UOc">
+                                <rect key="frame" x="20" y="750" width="374" height="92"/>
+                                <subviews>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Currency code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mxQ-VL-IDy">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Bq4-JS-ztD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the amount...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KgG-n0-734">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Fvr-aL-phO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeL-Ku-gck">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="AWs-xz-xTk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <state key="normal" title="PAY WITH IPPOPAY">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="payButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fII-Su-LIq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mxQ-VL-IDy" firstAttribute="leading" secondItem="6tc-Ld-UOc" secondAttribute="leading" id="16N-Gb-LyH"/>
+                                    <constraint firstAttribute="trailing" secondItem="KgG-n0-734" secondAttribute="trailing" id="8bu-BE-YeO"/>
+                                    <constraint firstAttribute="trailing" secondItem="YeL-Ku-gck" secondAttribute="trailing" id="HQt-fU-BcG"/>
+                                    <constraint firstItem="KgG-n0-734" firstAttribute="leading" secondItem="6tc-Ld-UOc" secondAttribute="leading" id="VhV-vs-nKU"/>
+                                    <constraint firstItem="mxQ-VL-IDy" firstAttribute="top" secondItem="6tc-Ld-UOc" secondAttribute="top" id="ZBa-fU-6Nj"/>
+                                    <constraint firstItem="YeL-Ku-gck" firstAttribute="leading" secondItem="6tc-Ld-UOc" secondAttribute="leading" id="ZCL-5i-nBh"/>
+                                    <constraint firstAttribute="trailing" secondItem="mxQ-VL-IDy" secondAttribute="trailing" id="fat-cs-CfQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="YeL-Ku-gck" secondAttribute="bottom" id="gET-Ig-0zN"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qvR-OM-fkN">
+                                <rect key="frame" x="20" y="653.5" width="374" height="66.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MI, Lenovo, One Plus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8V-hQ-uc5">
+                                        <rect key="frame" x="0.0" y="0.0" width="160.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand New Android Mobiles are available for New Year Sale:). Order Now using IppoPayPayment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="i0a-Me-j3P">
+                                        <rect key="frame" x="0.0" y="25.5" width="364.5" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66.5" id="fmd-BZ-d0x"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6tc-Ld-UOc" secondAttribute="bottom" constant="20" id="1sW-sh-Svc"/>
+                            <constraint firstItem="2AG-TU-XCB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="BZ4-vc-gdi"/>
+                            <constraint firstItem="6tc-Ld-UOc" firstAttribute="top" secondItem="qvR-OM-fkN" secondAttribute="bottom" constant="30" id="VlJ-ve-wLQ"/>
+                            <constraint firstItem="6tc-Ld-UOc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="bCm-cJ-2mm"/>
+                            <constraint firstItem="qvR-OM-fkN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="dBJ-7D-biU"/>
+                            <constraint firstItem="qvR-OM-fkN" firstAttribute="top" secondItem="2AG-TU-XCB" secondAttribute="bottom" constant="20" id="gEr-9a-3gt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2AG-TU-XCB" secondAttribute="trailing" constant="20" id="k5S-eR-iZz"/>
+                            <constraint firstItem="2AG-TU-XCB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mr0-gU-KAq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6tc-Ld-UOc" secondAttribute="trailing" constant="20" id="tq9-zc-u8Z"/>
+                            <constraint firstAttribute="trailing" secondItem="qvR-OM-fkN" secondAttribute="trailing" constant="20" id="znc-Ui-KRy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="amountTextField" destination="KgG-n0-734" id="Q6G-Ue-f0H"/>
+                        <outlet property="stackViewBottomConstraints" destination="1sW-sh-Svc" id="bJY-lO-CEQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="64"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mobile" width="772" height="757"/>
+    </resources>
+</document>
