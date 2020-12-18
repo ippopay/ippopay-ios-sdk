@@ -124,10 +124,10 @@ install_xcframework() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_xcframework "${PODS_ROOT}/IppoPay/IppoPay.xcframework" "" "true" "ios-x86_64-simulator/IppoPay.framework" "ios-arm64/IppoPay.framework"
+  install_xcframework "${PODS_ROOT}/IppoPay/IppoPay.xcframework" "" "true" "ios-arm64/IppoPay.framework" "ios-x86_64-simulator/IppoPay.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_xcframework "${PODS_ROOT}/IppoPay/IppoPay.xcframework" "" "true" "ios-x86_64-simulator/IppoPay.framework" "ios-arm64/IppoPay.framework"
+  install_xcframework "${PODS_ROOT}/IppoPay/IppoPay.xcframework" "" "true" "ios-arm64/IppoPay.framework" "ios-x86_64-simulator/IppoPay.framework"
 fi
 
 echo "Artifact list stored at $ARTIFACT_LIST_FILE"
