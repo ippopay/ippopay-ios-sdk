@@ -119,6 +119,7 @@
 				AFE72FAD254027BB00EAF383 /* Frameworks */,
 				AFE72FAE254027BB00EAF383 /* Resources */,
 				AF8CD92B2546AC8F00CED351 /* Embed Frameworks */,
+				09BA958D0D15F760CD0F4DE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +177,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09BA958D0D15F760CD0F4DE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoIppopay/Pods-DemoIppopay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E8D2B5392283804889B5959F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

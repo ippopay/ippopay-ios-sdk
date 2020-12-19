@@ -30,7 +30,7 @@ class PayVC: UIViewController {
                 errorAlert(message: "Please enter valid amount")
             } else {
                 PayLog.setLogVisible(debug: true)
-                Ippopay.initSDK(publicKey: "Public_key", withDelegate: self)
+                Ippopay.initSDK(publicKey: "Public Key", withDelegate: self)
                 let orderData = OrderData()
                 orderData.orderId = "order_id"
                 Ippopay.makePayment(orderData: orderData)
