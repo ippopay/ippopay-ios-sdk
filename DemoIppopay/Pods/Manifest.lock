@@ -1,16 +1,16 @@
 PODS:
-  - IppoPay (1.0.4)
+  - IppoPay (1.0.5)
 
 DEPENDENCIES:
-  - IppoPay (~> 1.0.4)
+  - IppoPay (~> 1.0.5)
 
 SPEC REPOS:
   trunk:
     - IppoPay
 
 SPEC CHECKSUMS:
-  IppoPay: 0ad3326c69d1e44dac1add849d434436d2ebfbd3
+  IppoPay: de9b1dba058f1a90d8d120f37b7a7bdd35843da0
 
-PODFILE CHECKSUM: 55e7fa7019928ca7a3995743c6a9462a6ccecf6a
+PODFILE CHECKSUM: 03446ae37bb6720732a67c804a42ec542bf54ced
 
 COCOAPODS: 1.10.0

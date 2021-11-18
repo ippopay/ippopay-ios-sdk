@@ -6,19 +6,19 @@
 	<dict>
 		<key>BankCollectionCell.nib/objects-12.3+.nib</key>
 		<data>
-		0gBe5ZTdXvONd+HBWt3ZKOF80Jw=
+		S4cP8GPbWDQufBMxVkNOhqNGa0Y=
 		</data>
 		<key>BankCollectionCell.nib/runtime.nib</key>
 		<data>
-		tyaq04CnIETpKAOR7QkmvUsvzV4=
+		RKhsKonxunAlJjuGxERkYnzQHEQ=
 		</data>
 		<key>DebitCardView.nib</key>
 		<data>
-		r3pyXrK6AZaftmYnFldh16xGtB4=
+		aNgXkanR4te65QNVAfBu5Sb22hg=
 		</data>
 		<key>Headers/IppoPay-Swift.h</key>
 		<data>
-		JI1PD5hSAA01ra7w8YODVsckWII=
+		1MsC/rGDH4PEMgKB5PR88mtiojE=
 		</data>
 		<key>Headers/IppoPay.h</key>
 		<data>
@@ -26,31 +26,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p/fFmEytdfz2jEXHsMpGN9yqhrs=
+		zZYKkmURr3TZZOKLz1KN8sg2GSc=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		AGjYNu56mXQ9mfGZmlyfi32Brag=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		PabctrzCN1KBRGhYIdtkk3+rOq4=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		DpmKrKSiKwZ1hlljFHlJUojfOq4=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		AGjYNu56mXQ9mfGZmlyfi32Brag=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		PabctrzCN1KBRGhYIdtkk3+rOq4=
+		</data>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		DpmKrKSiKwZ1hlljFHlJUojfOq4=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mZXcqc1+M9RzoVAsy4BA2jevmBI=
+		cowS6Q3UFXHFHSY4BB6ratH2PEE=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oCynX2vzcAaQ8IC6s+KQqHWOFfc=
+		ZYi+A8QHgyIVuSwzh/OQaKW9k4w=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W8EYsBkPjG+ySWe68PRDR6dkzr4=
+		Pr3msc2L66pS33OEVIBljrYhQb0=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		mZXcqc1+M9RzoVAsy4BA2jevmBI=
+		cowS6Q3UFXHFHSY4BB6ratH2PEE=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		oCynX2vzcAaQ8IC6s+KQqHWOFfc=
+		ZYi+A8QHgyIVuSwzh/OQaKW9k4w=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		W8EYsBkPjG+ySWe68PRDR6dkzr4=
+		Pr3msc2L66pS33OEVIBljrYhQb0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,15 +82,15 @@
 		</data>
 		<key>NetBankingView.nib</key>
 		<data>
-		ufgF683SsbDfhaFRDAKKFeseaTE=
+		c0khcbc03T8z9OAgwnDAFTDLeiA=
 		</data>
 		<key>PaymentView.nib</key>
 		<data>
-		TeTWImByiFu/YmT68mQBDxSOAJM=
+		cquyA+KWWIChswcfJ13uZzgXvHY=
 		</data>
 		<key>UpiView.nib</key>
 		<data>
-		gBqqeJ6LKFGAe37BYo9PUXf697c=
+		vf3mf/lZ8MPek6dMaVogiaTvWBg=
 		</data>
 		<key>amex.png</key>
 		<data>
@@ -203,28 +227,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P8mbDv0JWwndZaT5Oh8W3jMTHfxQE+9IL7y6IkHUoF8=
+			GcC1bdr1gqmWHgOeMUm0vsMQ5eEBFYzq7ByH0VvGQwY=
 			</data>
 		</dict>
 		<key>BankCollectionCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s9BMX5YOPBFN7o1zhSR2z4IdlQZ17+2BHP0h/D1KC+k=
+			l0Ki+mOqGeBvbY1nNMboy0wioMIuho95lM0f9lg7wGU=
 			</data>
 		</dict>
 		<key>DebitCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIzy/JfjrG7GKHNtGZC6myzbHPTEPYu013J2wDGb7EA=
+			c/063496W8jJ7yc0I4qwJNd++Pq8xoxmGbcola+GmUI=
 			</data>
 		</dict>
 		<key>Headers/IppoPay-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VzREcDib/GqRy1gXwFHMBR0kVtiz+HXJZ+dCYcGXRU=
+			YcXmicsB+pA+e8kVbZBf4mPwEWVmAVHytV9f76BB11Q=
 			</data>
 		</dict>
 		<key>Headers/IppoPay.h</key>
@@ -234,46 +258,88 @@
 			cUIQLBf9sBfqTmjs/RstMRxw7DbvJgHCFOXExFDcJn4=
 			</data>
 		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+5Chepa2aTJ48lsa79lysTShG3/cqzoKAiaof9q+eOQ=
+			</data>
+		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BH8HOrfTOCe7nKWw4+X2nVk1KsCqjxDd8yKGt6FsPag=
+			</data>
+		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/YsZX8IHPDI7neK3azcGyz9G87C4tqjkVPeBlHsTiYo=
+			</data>
+		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+5Chepa2aTJ48lsa79lysTShG3/cqzoKAiaof9q+eOQ=
+			</data>
+		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BH8HOrfTOCe7nKWw4+X2nVk1KsCqjxDd8yKGt6FsPag=
+			</data>
+		</dict>
+		<key>Modules/IppoPay.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/YsZX8IHPDI7neK3azcGyz9G87C4tqjkVPeBlHsTiYo=
+			</data>
+		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wUAO3fTPqGeL59Z+mSMH+wd8Vin+UwG1+ARFAlaB/VU=
+			lppwlR2yBsXiM8BEgK1joCjGOHoY8m88iSDDFVmw9/0=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MomeUjGtbxk054c3a2uOgJG42Zc57+U3OLs2BO2I9Bo=
+			KfLkTCsS1xVcrEyiUv76jfhm+YpM8dg6ycSQA/8eJaw=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVt8LM4igckrjRj5XygAHghU0Np2wSQxei3KrTMTkwg=
+			fr/icTco8sQPmhh2UHe5V1pn9W7fdw1iqzma7XYhy6I=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wUAO3fTPqGeL59Z+mSMH+wd8Vin+UwG1+ARFAlaB/VU=
+			lppwlR2yBsXiM8BEgK1joCjGOHoY8m88iSDDFVmw9/0=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MomeUjGtbxk054c3a2uOgJG42Zc57+U3OLs2BO2I9Bo=
+			KfLkTCsS1xVcrEyiUv76jfhm+YpM8dg6ycSQA/8eJaw=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVt8LM4igckrjRj5XygAHghU0Np2wSQxei3KrTMTkwg=
+			fr/icTco8sQPmhh2UHe5V1pn9W7fdw1iqzma7XYhy6I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -287,21 +353,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			feAgUHRpQlISRHjFyR8RXEWo8osAFQpDtXQiHFI/Zfg=
+			zD5p5H3rv/SeLfqeDRIDjN5m14OJqEAyOiyqsmv4bVA=
 			</data>
 		</dict>
 		<key>PaymentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OwzloBGAGO3igGulPl4Gyn5TW0AAh8K5y1A6hQd1shs=
+			TYXM5Y0WdImirj95+KiRrTyxWpj78RfB2523SQGfgH4=
 			</data>
 		</dict>
 		<key>UpiView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSSheKStwQKMX4CsbAQeelV70ATk9n4igrjk7Y3dSgQ=
+			GQ5FQ3J+swzL5fZ5maDqLy7cFOronVA8GTifjBAMrp4=
 			</data>
 		</dict>
 		<key>amex.png</key>
