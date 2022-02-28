@@ -6,6 +6,6 @@ target 'DemoIppopay' do
   use_frameworks!
 
   # Pods for DemoIppopay
-pod 'IppoPay', '~> 1.0.6'
+pod 'IppoPay', '~> 1.0.7'
 
 end
