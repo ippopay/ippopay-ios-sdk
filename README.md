@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'IppoPay', '~> 1.0.9'
+pod 'IppoPay', '~> 2.0.0'
 pod update
 ```
 
