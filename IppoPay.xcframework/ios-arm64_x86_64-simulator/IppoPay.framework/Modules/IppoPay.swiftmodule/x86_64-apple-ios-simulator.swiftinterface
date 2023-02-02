@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IppoPay
+// swift-module-flags: -target x86_64-apple-ios14.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IppoPay
 import Foundation
 @_exported import IppoPay
 import Swift
@@ -8,40 +8,47 @@ import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
-@_inheritsConvenienceInitializers @objc public class OrderData : ObjectiveC.NSObject {
-  @objc public var orderTitle: Swift.String?
-  @objc public var orderDescription: Swift.String?
+public class OrderData {
+  public var orderTitle: Swift.String?
+  public var orderDescription: Swift.String?
   public var orderAmount: Swift.Double?
-  @objc public var orderId: Swift.String?
-  @objc public var currencyCode: Swift.String?
-  @objc public var customColor: Swift.String?
-  @objc public var customer: IppoPay.Customer?
-  @objc override dynamic public init()
+  public var orderId: Swift.String?
+  public var currencyCode: Swift.String?
+  public var customColor: Swift.String?
+  public var customer: IppoPay.Customer?
+  public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class Customer : ObjectiveC.NSObject {
-  @objc public var customerName: Swift.String?
-  @objc public var customerEmail: Swift.String?
-  @objc public var customerPhoneNumber: Swift.String?
-  @objc public var customerPhoneCode: Swift.String?
-  @objc public var customerAddress: Swift.String?
-  @objc public var customerCity: Swift.String?
-  @objc override dynamic public init()
+public class Customer {
+  public var customerName: Swift.String?
+  public var customerEmail: Swift.String?
+  public var customerPhoneNumber: Swift.String?
+  public var customerPhoneCode: Swift.String?
+  public var customerAddress: Swift.String?
+  public var customerCity: Swift.String?
+  public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class Ippopay : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc public static func initSDK(publicKey: Swift.String, withDelegate: IppoPay.IppopayDelegate?)
-  @objc public static func makePayment(orderData: IppoPay.OrderData?)
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func roundCorner(corners: UIKit.UIRectCorner, ios11Corners: QuartzCore.CACornerMask, radius: CoreGraphics.CGFloat)
+}
+public class Ippopay {
+  public init()
+  public static func initSDK(publicKey: Swift.String, withDelegate: IppoPay.IppopayDelegate?)
+  public static func makePayment(orderData: IppoPay.OrderData?)
   public static func getDeletegate() -> IppoPay.IppopayDelegate?
   @objc deinit
 }
-@objc public protocol IppopayDelegate {
-  @objc func onPaymentError(descriptionOfError: Swift.String)
-  @objc func onPaymentSuccess(paymentId: Swift.String)
+@_hasMissingDesignatedInitializers public class BinNumber {
+  public var binNumber: Swift.String?
+  @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class PayLog : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc public static func setLogVisible(debug: Swift.Bool)
+public protocol IppopayDelegate {
+  func onPaymentError(descriptionOfError: Swift.String)
+  func onPaymentSuccess(paymentId: Swift.String)
+}
+public class PayLog {
+  public init()
+  public static func setLogVisible(debug: Swift.Bool)
   @objc deinit
 }
