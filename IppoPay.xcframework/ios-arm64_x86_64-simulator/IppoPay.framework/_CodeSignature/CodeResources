@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/IppoPay-Swift.h</key>
 		<data>
-		cA18/m72gd2CnXS0RL/JV+JVwDU=
+		xY5hOQZrrb9xUnkwepgjBSqzoUU=
 		</data>
 		<key>Headers/IppoPay.h</key>
 		<data>
@@ -38,27 +38,27 @@
 		</data>
 		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FjhrvidiubGCoUrTIqmGnvYt0ME=
+		/QItLn9m/tXWXuBqXoRc0EoI2GA=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vux6FQzuoZKnAmzLAJVyoaoAZDU=
+		8fwCU3znNuhw/MKyLx9Z0aa1sJg=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EhJAstmwg56ne14d9Iu4makR7vc=
+		R2cbDZlzpLCPJL0eY4c0aqbIBrg=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ywqXMyYnGJVRMaPRiMswEvrhHlE=
+		DZxvkcOTmX6zD1NGsB+3sxfiv/E=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		V6TQFG+Jpt6iU5TWKDJR+fL3i0Y=
+		6KP7uRC0FSKJTKgiKJy+iuaaxS0=
 		</data>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4wK+gbmq355EPATCtBuxDZwN+HA=
+		08XNxJwDO6HlVIDfhuu2gczr6Oc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -267,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdJ8dxcnF186ORTvczSNKJ/u9d2x6s+fLmh7IBFKB5o=
+			FdYwIB05lUrgJgCxldGPYKLeUwJafgf+K8khc5U7Ipo=
 			</data>
 		</dict>
 		<key>Headers/IppoPay.h</key>
@@ -288,42 +288,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			djq9iT6Js0RGUJJkMyp7vXwzU91v+vkfRgc5cjnl9hI=
+			9QH+HPybQwXeZyHh3wba1s1ekA5wmDr40b1yaGBTpqE=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EHny0DDVHlRct7FVuqEfXdlcnfqrpJtTS2srWC/ei+I=
+			rq7cCyjlipK6xR4WYXaCNMIv0f5OSZvj3pdYH1dCsUQ=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFl8IIh1jsrm3ZwB+w1vyBGbsS+5TjkZTJ2T4bKC0wo=
+			WnIkkhpguml14EKDDvWw3Up4iFYx37Yr2HbGvXnjBlc=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVmwCylNpg2EPYR7Lg7oRzofwOE221SK/omEhkI1NT4=
+			8hzxQDy7TBz3RM/5/4fa0bJkSKb4ZPltaN8orxpWZjE=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pVXstwl8PkC4TuovNxfmfx396B78phXcv56vFdWHyzE=
+			cRNOeg88JpMu0w6sYsBvxUojCi6YttkwoMHivo5dm0o=
 			</data>
 		</dict>
 		<key>Modules/IppoPay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FnY/R9WC5R5U8cRnnNhMArnHwAOB8K/84P5LIhnkz00=
+			7e6GJ5VGYF0+Xj6Aw3pSw4HaG6FcV7aIvCb1EWax29Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
