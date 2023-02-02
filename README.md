@@ -115,6 +115,16 @@ iOS 9 has higher requirements for secure URLs. As many Indian banks do not compl
     <true/>
 </dict>
 
+ <key>LSApplicationQueriesSchemes</key>
+        <array>
+            <string>amazonToAlipay</string>
+            <string>paytmmp</string>
+            <string>whatsapp</string>
+            <string>phonepe</string>
+            <string>bhim</string>
+            <string>gpay</string>
+        </array>
+
 ```
 
 ## Ippopay Log
